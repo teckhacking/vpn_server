@@ -1,0 +1,21 @@
+update & upgrade = apt update && upgrade -y
+
+install git and wget = apt install git wget
+
+list directory = ls
+
+add user = adduser
+
+permission = visudo
+
+Open vpn script = wget https://raw.githubusercontent.com/angristan/openvpn-install/master/openvpn-install.sh
+
+Give permissions to file = chmod +x openvpn-install.sh
+
+excute script = ./openvpn-install.sh (or) bash openvpn-install.sh
+
+clint name = vardhan
+
+webserver = sudo apt install apache2
+
+move file = sudo mv vardhan.ovpn /var/www/html/
